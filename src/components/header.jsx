@@ -31,7 +31,7 @@ const Header = ({ query, setQuery }) => {
 
   <div className="flex items-center space-x-4">
     <img src={MECALON01} alt="Finding Fish" className="h-8" />
-    <Link to="/" className="text-xl font-bold text-gray-800 no-underline"> MECALON TECH </Link>
+    <Link to="/" className="text-xl font-bold text-gray-800 no-underline"> SANARA FRESH </Link>
   </div>
 
   <div className="hidden xl:flex absolute left-1/2 transform -translate-x-1/2 space-x-8">

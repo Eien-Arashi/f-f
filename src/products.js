@@ -1,11 +1,19 @@
+import croakedImage from '../src/assets/croaker.png';
+import sheelavuImage from '../src/assets/sheelavu.jpg';
+import LizardImage from '../src/assets/LIZARD.jpg';
+import perchImage from '../src/assets/pinkperch.jpg';
+import silverBellyImage from '../src/assets/silverbelly.jpg';
+import sharkImage from '../src/assets/shark.jpg';
+import pulliMonthaImage from '../src/assets/pulli montha.jpg';
+import ayalaImage from '../src/assets/ayala.jpg';
 export const products = [
   {
     id: 1,
-    name: 'Baracuda Dried',
+    name: 'Baracuda',
     price: 100,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031410_0.png',
+        sheelavuImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782512_0.png'
       ]
     },
@@ -17,11 +25,11 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Croaker Dried',
+    name: 'Croaker',
     price: 200,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031911_0.png',
+        croakedImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782637_0.png'
       ]
     },
@@ -32,11 +40,11 @@ export const products = [
   },
   {
     id: 3,
-    name: 'Lizard Fish Dried',
+    name: 'Lizard Fish',
     price: 250,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031685_0.png',
+         LizardImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782768_0.png'
       ]
     },
@@ -51,7 +59,7 @@ export const products = [
     price: 150,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031555_0.png',
+        perchImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782866_0.png'
       ]
     },
@@ -62,11 +70,11 @@ export const products = [
   },
   {
     id: 5,
-    name: 'Silver Belly Dried',
+    name: 'Silver Belly',
     price: 130,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031463_0.png',
+        silverBellyImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782934_0.png'
       ]
     },
@@ -77,11 +85,11 @@ export const products = [
   },
   {
     id: 6,
-    name: 'Shark Dried',
+    name: 'Shark',
     price: 210,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1709031522_0.png',
+        sharkImage,
         'https://www.fishmaidonline.com/storage/product/product_1720782979_0.png'
       ]
     },
@@ -96,7 +104,7 @@ export const products = [
     price: 140,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1729753660_0.png',
+        pulliMonthaImage,
         'https://www.fishmaidonline.com/storage/product/product_1716273653_1.png'
       ]
     },
@@ -111,7 +119,7 @@ export const products = [
     price: 240,
     images: {
       large: [
-        'https://www.fishmaidonline.com/storage/product/product_1718862634_0.png',
+        ayalaImage,
         'https://www.fishmaidonline.com/storage/product/product_1718862634_0.png'
       ]
     },

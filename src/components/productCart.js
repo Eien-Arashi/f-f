@@ -37,7 +37,7 @@ return (
 
   <div className="product-price-btn flex justify-between items-center">
   <p className="text-xl font-sans text-[#000080]">
-  <span className="text-2xl font-sans">{price}</span>$
+  <span className="text-2xl font-sans">{price}</span>£
   </p>
   <button className="bg-[#008080] text-white px-4 py-2 rounded-full uppercase font-sans text-xs font-medium tracking-widest hover:bg-[#87ceeb] transition-colors" onClick={() => handleAddToCart(id)}>
    Add To Cart

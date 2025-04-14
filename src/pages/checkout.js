@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Header from '../components/header'
 const checkout = () => {
   return (
-    <div>checkout</div>
+    
+    <div>
+      <Header/>
+      checkout
+      </div>
   )
 }
 

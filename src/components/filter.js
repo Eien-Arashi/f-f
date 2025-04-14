@@ -72,7 +72,7 @@ const Filter = () => {
    <label className="block text-gray-700 font-medium mb-2"> Price Range: </label>
   <div className="flex gap-2">
    <input type="number" className="w-1/2 p-2 border rounded-md" value={minPrice} onChange={handleMinPriceChange} placeholder="Min"/>
-   <input type="number" className="w-1/2 p-2 border rounded-md" onChange={handleMaxPriceChange} placeholder="Max"/>
+   <input type="number" className="w-1/2 p-2 border rounded-md" value={maxPrice} onChange={handleMaxPriceChange} placeholder="Max"/>
   </div>
   </div>
 
@@ -89,7 +89,7 @@ const Filter = () => {
         </div>
   </div>
 
-  <button onClick={handleClearFilters} className=" w-1/2 p-2 border rounded-md bg-gray-200 hover:bg-gray-300 transition mx-auto flex justify-center">
+  <button onClick={handleClearFilters} className=" w-1/2 p-2 border rounded-md bg-blue-500 text-white hover:bg-blue-700 transition mx-auto flex justify-center">
    CLEAR FILTERS
   </button>
   
